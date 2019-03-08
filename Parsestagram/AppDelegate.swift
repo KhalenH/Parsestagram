@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import AlamofireImage
+//import AlamofireImage
 import Parse
 
 @UIApplicationMain

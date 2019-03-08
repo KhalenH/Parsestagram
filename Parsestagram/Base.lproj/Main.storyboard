@@ -72,7 +72,7 @@
                     <connections>
                         <outlet property="passwordField" destination="qXO-LM-duJ" id="mtN-e0-0Dc"/>
                         <outlet property="usernameField" destination="bRR-Zm-7K1" id="YTz-tu-qYT"/>
-                        <segue destination="4Hl-Hs-kTf" kind="presentation" id="UnE-Pw-D9p"/>
+                        <segue destination="4Hl-Hs-kTf" kind="presentation" identifier="loginSegue" id="UnE-Pw-D9p"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
