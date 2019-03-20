@@ -23,7 +23,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 configuration.applicationId = "Parsestagram"
                 configuration.server = "https://young-cove-34140.herokuapp.com/parse"
             }))
+        
+        if PFUser.current() != nil{
+            let main = UIStoryboard(name: "Main", bundle: nil)
+            let feedNavigationController = main.instantiateViewController(withIdentifier: "FeedNavigationController")
+            window?.rootViewController = feedNavigationController
+        }
+        
+        
         return true
+        
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
